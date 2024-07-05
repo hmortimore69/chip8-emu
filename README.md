@@ -20,7 +20,7 @@ This is a Chip-8 emulator written in Rust, utilizing the SDL2 library for render
 3. Clone this repository:
 
 ```sh
-git clone https://github.com/yourusername/chip8_emulator.git
+git clone https://github.com/hmortimore69/chip8-emu
 ```
 
 4. Build the project using Cargo:
