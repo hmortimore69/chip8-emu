@@ -126,6 +126,7 @@ impl Emu {
         let higher_byte = self.ram[self.pc as usize] as u16;
         let lower_byte = self.ram[self.pc as usize + 1] as u16;
         let op = (higher_byte << 8) | lower_byte;
+
         self.pc += 2;
         op
     }
